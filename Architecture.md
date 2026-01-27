@@ -21,8 +21,6 @@ While the project requirements allowed for simpler data persistence, I decided t
 
 Integrating a Real Database (PostgreSQL): I chose to implement a full relational database. As a developer, I’m constantly looking to sharpen my skills in data modeling and SQL. Using a database like Postgres allowed me to practice robust data integrity and ensure that the inventory remains consistent even after a server restart.
 
-Full Deployment: I decided to deploy the entire application to the cloud. I chose to deploy the application to gain hands-on experience with production environments and cloud deployment. This process gave me great experience in environment configuration and managing a live production-ready app beyond my local machine.
-
 
 **System Data Flow**
 Interaction: The user updates a quantity or adds a product in the React UI.
@@ -44,7 +42,7 @@ Product Management: Specialized views for adding new items to the system, ensuri
 
 
 **Tools Used:**
-Tools & Methodology: This project was developed using modern development workflows, including the use of AI assistance for architectural guidance and debugging. This allowed me to implement advanced features like automated unit testing and cloud deployment efficiently while maintaining high coding standards.
+Tools & Methodology: This project was developed using modern development workflows, including the use of AI assistance for architectural guidance and debugging. This allowed me to implement advanced features like automated unit testing and maintaining high coding standards.
 
 
 **Scalability & Future Improvements**
@@ -56,10 +54,10 @@ Advanced Analytics Dashboard: Leveraging the PostgreSQL database to generate rep
 
 
 **How to Access & Run**
-Live Demo: Access the deployed application here: [Link to your deployment].
 
 Local Development:
 
 Backend & Tests: Navigate to /backend and run npm install followed by npm start (or npm test to run logic validations).
 
 Frontend: Navigate to /frontend and run npm install followed by npm run dev.
+Note: Please ensure you have a local PostgreSQL instance running and update the .env file in the /backend folder with your credentials before starting the server
