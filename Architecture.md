@@ -1,4 +1,4 @@
-Architecture & Project Overview
+*Architecture & Project Overview*
 
 General Concept
 
