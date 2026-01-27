@@ -1,5 +1,7 @@
 Architecture & Project Overview
+
 General Concept
+
 This project is a Full-Stack Inventory Management system. The main goal was to create a reliable tool for managing a product catalog and tracking real-time inventory levels. I built the system with a clear separation between the Frontend (React) and the Backend (Node.js) to ensure scalability and clean code.
 
 The Tech Stack
