@@ -58,6 +58,6 @@ Advanced Analytics Dashboard: Leveraging the PostgreSQL database to generate rep
 Local Development:
 
 Backend & Tests: Navigate to /backend and run npm install followed by npm start (or npm test to run logic validations).
+Note: Please ensure you have a local PostgreSQL instance running and update the .env file in the /backend folder with your credentials before starting the server
 
 Frontend: Navigate to /frontend and run npm install followed by npm run dev.
-Note: Please ensure you have a local PostgreSQL instance running and update the .env file in the /backend folder with your credentials before starting the server
