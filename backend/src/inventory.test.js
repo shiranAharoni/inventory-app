@@ -3,7 +3,6 @@ import app from './app.js';
 
 describe('Inventory Management System - Integration Tests', () => {
 
-  // קבוצה ראשונה: בדיקות מוצרים (Products)
   describe('Product API', () => {
     test('Should fetch all products successfully', async () => {
       const response = await request(app).get('/product/all');
@@ -14,17 +13,17 @@ describe('Inventory Management System - Integration Tests', () => {
     test('Should return 400 for invalid product scheme', async () => {
       const response = await request(app)
         .put('/product')
-        .send({}); // שליחת אובייקט ריק ללא name
+        .send({}); 
       expect(response.status).toBe(400);
     });
   });
 
-  // קבוצה שנייה: בדיקות מלאי (Inventory)
+
   describe('Inventory API', () => {
     test('Should return 400 if some item name is missing', async () => {
       const response = await request(app)
         .post('/inventory')
-        .send([{ quantity: 5 }]); // חסר name
+        .send([{ quantity: 5 }]); 
       expect(response.status).toBe(400);
     });
 
