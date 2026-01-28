@@ -1,15 +1,14 @@
 .App {
   max-width: 800px;    
   margin: 40px auto;  
-  padding: 30px; /* הגדלתי מעט את הריווח הפנימי */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* פונט קצת יותר מודרני */
+  padding: 30px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;  
   background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* צל עדין מאוד לכל האפליקציה */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
 }
 
-/* עיצוב הקישור - נשאר במקום המקורי */
 a {
   display: inline-block;
   margin-bottom: 20px;
@@ -22,32 +21,30 @@ a:hover {
   text-decoration: underline;
 }
 
-/* עיצוב הטבלה - המבנה המקורי שלך */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 25px 0;
   background-color: white;
   border-radius: 8px;
-  overflow: hidden; /* כדי שהפינות המעוגלות יעבדו */
+  overflow: hidden; 
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 th, td {
   padding: 15px;
-  text-align: left; /* שמרתי על היישור לשמאל כמו במקורי שלך */
-  border-bottom: 1px solid #f0f0f0; /* קו עדין יותר במקום ddd/eee */
+  text-align: left; 
+  border-bottom: 1px solid #f0f0f0; 
 }
 
 th {
-  background-color: #f8f9fa; /* אפור בהיר מאוד ונעים */
+  background-color: #f8f9fa; 
   color: #666;
   font-weight: 600;
 }
 
-/* עיצוב הכפתורים למטה - נשארים באותו גודל ומיקום */
 .save-btn, .reset-btn {
-  padding: 10px 20px; /* הגדלתי טיפה את אזור הלחיצה */
+  padding: 10px 20px;
   border-radius: 6px;
   border: 1px solid #dee2e6;
   cursor: pointer;
@@ -57,13 +54,11 @@ th {
   transition: all 0.2s;
 }
 
-/* כפתור שמירה - אפור נקי */
 .save-btn {
   background-color: #f8f9fa;
   color: #495057;
 }
 
-/* כפתור ריסט - אדום עדין */
 .reset-btn {
   background-color: #ff4d4d;
   color: white;
@@ -71,7 +66,6 @@ th {
   margin-left: 10px;
 }
 
-/* כפתורי ה-Edit וה-X בתוך הטבלה */
 button {
   padding: 5px 10px;
   margin-right: 5px;
@@ -88,7 +82,7 @@ button:hover {
 
 .save-btn:hover, .reset-btn:hover {
   opacity: 0.8;
-  transform: translateY(-1px); /* אפקט קטן של הרמה */
+  transform: translateY(-1px); 
 }
 
 .reset-btn:hover {
