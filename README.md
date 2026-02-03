@@ -23,8 +23,20 @@ The backend is built as a RESTful service, providing structured endpoints to sup
 * **Middleware** for parsing and routing requests.
 * **Standardized HTTP response codes** for error handling.
 
+
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/shiranAharoni/inventory-app.git](https://github.com/shiranAharoni/inventory-app.git)
+   git clone https://github.com/shiranAharoni/inventory-app.git
+
+2. **Setup the Server:**
+   Navigate to the server directory, install dependencies, and start the backend:
+   cd server
+   npm install
+3. **Setup the Client:**
+    Navigate to the client directory, install dependencies, and start the frontend:
+   cd client
+   npm install
+   npm start
+   npm start
+5. 
