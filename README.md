@@ -29,14 +29,7 @@ The backend is built as a RESTful service, providing structured endpoints to sup
 1. **Clone the repository:**
    git clone https://github.com/shiranAharoni/inventory-app.git
 
-2. **Setup the Server:**
-   Navigate to the server directory, install dependencies, and start the backend:
-   cd server
-   npm install
-   npm start
-4. **Setup the Client:**
-    Navigate to the client directory, install dependencies, and start the frontend:
-   cd client
-   npm install
-   npm start
+**Backend & Tests:** Navigate to /backend and run npm install followed by npm start (or npm test to run logic validations). Note: Please ensure you have a local PostgreSQL instance running and update the .env file in the /backend folder with your credentials before starting the server
+
+**Frontend:** Navigate to /frontend and run npm install followed by npm run dev.
    
