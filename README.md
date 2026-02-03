@@ -33,10 +33,10 @@ The backend is built as a RESTful service, providing structured endpoints to sup
    Navigate to the server directory, install dependencies, and start the backend:
    cd server
    npm install
-3. **Setup the Client:**
+   npm start
+4. **Setup the Client:**
     Navigate to the client directory, install dependencies, and start the frontend:
    cd client
    npm install
    npm start
-   npm start
-5. 
+   
